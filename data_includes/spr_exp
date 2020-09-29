@@ -96,7 +96,7 @@ var items = [
 
     //Tense Stimuli List (sample)
 
-'[[{" comp-bias  "},1], "DashedSentence", {s: ["The senator", "examined", "by the court", "was", "acquitted"]}, "Question", {q: " Did the senator examine someone??", hasCorrect: 0}],'
+'[["comp-bias",1], "DashedSentence", {s: ["The senator", "examined", "by the court", "was", "acquitted"]}, "Question", {q: " Did the senator examine someone??", hasCorrect: 0}],'
 
 
     // INCLUDE THE FILLERS: sample items
