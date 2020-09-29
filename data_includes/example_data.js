@@ -78,7 +78,7 @@ var items = [
 
 ["prac", Message, {consentRequired: false, transfer: "keypress",
                      html: ["div",
-                           ["p", "That's all the practice! When you're ready to begin the experiment, press any button to move ahead. REMEMBER: it will last approximately 80 minutes, and will require your full attention throughout that period. Thank you for your help!"]
+                           ["p", "That's all the practice! When you're ready to begin the experiment, press any button to move ahead. REMEMBER: it will last approximately 5 minutes, and will require your full attention throughout that period. Thank you for your help!"]
                            ]}],
 
 
