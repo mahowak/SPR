@@ -95,15 +95,14 @@ var items = [
 ["dummysep", Separator, {transfer: 10, normalMessage: ""}],
 
     //Tense Stimuli List (sample)
-
-[["bias-noun-comp", 1], "DashedSentence", { s: ["The senator", "wrote", "their opponent", "was", "acquitted"] }, "Question", { q: " Did the senator write something??", hasCorrect: 0 }],
-[["bias-noun-comp", 2], "DashedSentence", { s: ["The professor", "taught", "the lesson", "was", "easy"] }, "Question", { q: " Did the teacher forget to teach??", hasCorrect: 1 }],
-[["bias-noun-noun", 3], "DashedSentence", { s: ["The senator", "wrote", "a letter", "to", "me"] }, "Question", { q: " Did the senator write something??", hasCorrect: 0 }],
-[["bias-noun-noun", 4], "DashedSentence", { s: ["The professor", "taught", "the lesson", "on", "the board"] }, "Question", { q: " Did the teacher forget to teach??", hasCorrect: 1 }],
-[["bias-comp-comp", 5], "DashedSentence", { s: ["The actor", "claimed", "his friend", "was", "a star"] }, "Question", { q: " Did the actor claim something??", hasCorrect: 0 }],
-[["bias-comp-comp", 6], "DashedSentence", { s: ["The farmer", "wished", "their daughter", "was", "present"] }, "Question", { q: " Was the farmer childless??", hasCorrect: 1 }],
-[["bias-comp-noun", 7], "DashedSentence", { s: ["The actor", "claimed", "his roommate", "as", "a friend."] }, "Question", { q: " Did the actor have a friend??", hasCorrect: 0 }],
-[["bias-comp-noun", 8], "DashedSentence", { s: ["The farmer", "wished", "their daughter", "a", "happy birthday"] }, "Question", { q: " Did the sentence mention a son??", hasCorrect: 1 }],
+[["bias-noun-comp",1], "DashedSentence", {s: ["The senator", "wrote", "their opponent", "was", "acquitted", "before", "getting", "elected"]}, "Question", {q: " Did the senator write something??", hasCorrect: 0}],
+[["bias-noun-comp",2], "DashedSentence", {s: ["The professor", "taught", "the lesson",  "was", "easy", "and I", "happily", "agreed"]}, "Question", {q: " Did the teacher forget to teach??", hasCorrect: 1}],
+[["bias-noun-noun",3], "DashedSentence", {s: ["The senator", "wrote", "a letter", "to", "me", "with", "beautiful", "penmanship"]}, "Question", {q: " Did the senator write something??", hasCorrect: 0}],
+[["bias-noun-noun",4], "DashedSentence", {s: ["The professor", "taught", "the lesson",  "on", "the board", "at the", "famous", "university"]}, "Question", {q: " Did the teacher forget to teach??", hasCorrect: 1}],
+[["bias-comp-comp",5], "DashedSentence", {s: ["The actor", "claimed", "his friend", "was", "a star", "in all", "earthly", "endeavors"]}, "Question", {q: " Did the actor claim something??", hasCorrect: 0}],
+[["bias-comp-comp",6], "DashedSentence", {s: ["The farmer", "wished", "their daughter",  "was", "present", "at the", "important", "ceremony"]}, "Question", {q: " Was the farmer childless??", hasCorrect: 1}],
+[["bias-comp-noun",7], "DashedSentence", {s: ["The actor", "claimed", "his roommate", "as", "a friend", "of", "high", "rank"]}, "Question", {q: " Did the actor have a friend??", hasCorrect: 0}],
+[["bias-comp-noun",8], "DashedSentence", {s: ["The farmer", "wished", "their daughter",  "a", "happy birthday", "before", "going", "home"]}, "Question", {q: " Did the sentence mention a son??", hasCorrect: 1}],
 
 [["filler.all.PAST.good.",116], "DashedSentence", {s: ["The lobbyists", "tried to persuade a senator", "to reform", "the social welfare system.","Meanwhile,", "some NGOs produced", "many leaflets to hand out", "to the public.","All of them","were involved in policy making.","They had","an impact on","the future of our country."]}, "Question", {q: "Is any NGO mentioned in the sentence?", hasCorrect: 0}],
 
