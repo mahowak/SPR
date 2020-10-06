@@ -21,15 +21,16 @@ d.sum = group_by(d, bias, actual, Region, combined_cond, `is mismatch`) %>%
 d.sum$bias = paste0("bias: ", d.sum$bias)
 d.sum$actual = paste0("actual: ", d.sum$actual)
 d.sum$combined_cond = with(d.sum, paste(bias, actual))
+sent = c("article\nThe", "NOUN\nwaiter", "VERB\ninsisted", "article\nthe", "NOUN2\nreservation", "VERB1\nwas", "VERB2\nmade", "END1\nyesterday")
 # ["The senator", "wrote", "their opponent", "was", "acquitted", "before", "getting", "elected"]
-ggplot(d.sum, aes(x=Region, y=m, group=combined_cond, colour=combined_cond, lty=`is mismatch`))  +
-  geom_line() +
-  geom_point() + 
-  scale_x_discrete(breaks=seq(1, 8), labels = c("NOUN\nThe senator", "VERB\nwrote", "NOUN2\ntheir opponent", "VERB/PREP\nwas", "PRED", "END1", "END2", "END3")) + 
+d.sum$Region = as.numeric(d.sum$Region)
+ggplot(filter(d.sum, Region <= 10), aes(x=Region, y=m, group=combined_cond, colour=combined_cond, lty=`is mismatch`))  +
+  geom_line(size=2) +
+  geom_point(size=5) + 
+  scale_x_continuous(breaks=seq(1, length(sent)), labels = sent ) +
   theme_bw(18) + 
   ylab("mean Reaction Time in ms")
-ggsave("~/Downloads/test.pdf", width=12, height=8)
-
+ggsave("~/Downloads/test.pdf", width=14, height=8)
 
 
 d.sum$Region = as.numeric(d.sum$Region)
