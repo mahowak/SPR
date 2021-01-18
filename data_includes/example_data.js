@@ -46,10 +46,10 @@ var items = [
    ["setcounter", "__SetCounter__", { }], 
 
 //    ["intro", "Form", {consentRequired: true, html: {include: "intro.html" }} ],
-//    ["intro", "Form", {consentRequired: true, html: {include: "intro1.html" }} ],
-//    ["intro", "Form", {consentRequired: true, html: {include: "intro2.html" }} ],
-//    ["intro", "Form", {consentRequired: true, html: {include: "intro3.html" }} ],
-//    ["exit", "Form", {consentRequired: false, html: {include: "exit.html" }} ],
+    ["intro", "Form", {consentRequired: false, html: {include: "intro1.html" }} ],
+    ["intro", "Form", {consentRequired: false, html: {include: "intro2.html" }} ],
+    ["intro", "Form", {consentRequired: false, html: {include: "intro3.html" }} ],
+    ["exit", "Form", {consentRequired: false, html: {include: "exit.html" }} ],
     
     ["sepprac", "Separator", {transfer: 1000, errorMessage: "Wrong. Please wait."}],
     
