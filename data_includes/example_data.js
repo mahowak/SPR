@@ -285,4 +285,4 @@ var items = [
     [["XSC-A-I", 47], "DashedSentence", { s: ['The factory owner', 'suspected', 'the cash', 'would probably', 'not last long.'] }, "Question", { q: " The cash would probably not last long.", hasCorrect: 0 }],
     [["XSC-U-P", 48], "DashedSentence", { s: ['The bus driver', 'worried', 'that the passengers', 'were starting', 'to get annoyed.'] }, "Question", { q: " The passengers were starting to get annoyed.", hasCorrect: 0 }],
     [["XSC-U-I", 48], "DashedSentence", { s: ['The bus driver', 'worried', 'that the tires', 'were starting', 'to go flat.'] }, "Question", { q: " The bus driver worried something.", hasCorrect: 0 }],
-    [["XSC-A-P", 48], "DashedSentence", { s: ['The bus driver', 'worried', 'the passengers', 'were starting', 'to get annoyed.'] }, "Question", { q: " The bus driver worried the passengers.", hasCorrect: 1 }]
+    [["XSC-A-P", 48], "DashedSentence", { s: ['The bus driver', 'worried', 'the passengers', 'were starting', 'to get annoyed.'] }, "Question", { q: " The bus driver worried the passengers.", hasCorrect: 1 }]]
